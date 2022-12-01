@@ -1,0 +1,31 @@
+{
+    "name": "Wall helper",
+    "version": "1.0",
+    "description": "For my dear Dasha",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "action.js"
+            ]
+        }
+    ],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "iconMain.png",
+            "32": "iconMain.png",
+            "48": "iconMain.png",
+            "128": "iconMain.png"
+        }
+    },
+    "icons": {
+        "16": "iconMain.png",
+        "32": "iconMain.png",
+        "48": "iconMain.png",
+        "128": "iconMain.png"
+    }
+}
